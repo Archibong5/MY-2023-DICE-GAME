@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  background-color: #FF7000;
+  text-align: center;
+}
+
+.btn{
+  height: 100px;
+  width: 400px;
+  background-color: black;
+  color: white;
+  text-shadow: 4px 4px 8px #FF7000;
+  font-size: 40px;
+  font-weight: 900;
+  border-radius: 30px;
+  border: 10px solid white;
+  margin: 50px 0;
+}
+
+.title{
+  color : white;
+  text-shadow: 4px 4px 8px orange;
+}
+
+.refresh{
+  font-size: 70px;
+}
+
+.player{
+  font-weight: 900;
+  font-size: 50px;
+  margin: 0;
+}
+
+.emoji{
+  font-size: 70px;
+}
+
+/* FLEXBOX */
+#first-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
